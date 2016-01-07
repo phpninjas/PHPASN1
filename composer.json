@@ -1,0 +1,30 @@
+{
+  "minimum-stability": "dev",
+  "name": "phpninjas/ASN1",
+  "description": "ASN.1 byte reader",
+  "keywords": [
+    "asn.1",
+    "x609",
+    "der",
+    "ber"
+  ],
+  "homepage": "https://github.com/phpninjas/ASN1",
+  "license": "Apache",
+  "authors": [
+    {
+      "name": "James Turner"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "phpninjas\\ASN1\\": "src/",
+      "phpninjas\\ASN1\\Test\\": "test/"
+    }
+  }
+}
